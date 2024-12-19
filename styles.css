@@ -1,0 +1,160 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    background-color: #fbf0fb;  
+}  
+
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    width: 100%;  
+    padding:3px;  
+    background-color: #f9e1f7;  
+    color: rgb(11, 11, 11);  
+}  
+
+.nav {  
+    display: flex;  
+}  
+
+button {  
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;  
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 5px;  
+    background-color: #8970dd;  
+    color: white;  
+    cursor: pointer;  
+    transition: background-color 0.4
+    cubic-bezier(0.95, 0.05, 0.795, 0.035);  
+}  
+
+button:hover {  
+    background-color: #82a7f1;  
+}  
+
+.health-title {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+.content {  
+    margin-top: 0px;  
+    padding: 0px;  
+    background-color: #fceafb;  
+    border-radius: 5ch;   
+    max-width: 500px;  
+    text-align: center;
+    text-emphasis-color: black;  
+}  
+
+h1 {  
+    margin-top:0;  
+}
+.health-title {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-right: auto; /* This ensures it stays on the left */  
+}
+.see-how-it-works {  
+    background-color: black; /* Button background color */  
+    color: white;            /* Text color */  
+    padding: 10px 10px;     /* Padding around the text */  
+    border: none;           /* No border */  
+    border-radius: 5px;     /* Rounded corners */  
+    cursor: pointer;         /* Pointer cursor on hover */  
+    margin-top: 20px;       /* Space above the button */  
+    transition: background-color 0.3s; /* Smooth transition for hover effect */  
+}  
+
+.see-how-it-works:hover {  
+    background-color: #f3f1f1; /* Darker shade on hover */  
+}
+.button-container {  
+    display: flex;               /* Use flexbox to position items in a row */  
+    align-items: center;        /* Center items vertically */  
+    margin-top: 20px;          /* Space above the button container */  
+}  
+
+.become-partner {  
+    margin-left: 15px;          /* Space between the button and the link */  
+    text-decoration: underline; /* Underline the text */  
+    color: black;               /* Text color */  
+    cursor: pointer;            /* Change cursor to pointer on hover */  
+}
+main {  
+    display: flex;                /* Use flexbox for layout */  
+    flex-direction: column;       /* Stack elements vertically */  
+    align-items: center;          /* Center items horizontally */  
+    margin-top: 20px;            /* Space above the main section */  
+}  
+
+.button-container {  
+    display: flex;                /* Use flexbox to position items in a row */  
+    align-items: center;          /* Center items vertically */  
+    margin-top: 20px; 
+    margin-top: 0;           /* Space above the button container */  
+}  
+
+.become-partner {  
+    margin-left: 18px;            /* Space between the button and the link */  
+    text-decoration: underline;   /* Underline the text */  
+    color: rgb(96, 18, 230);                 /* Text color */  
+    cursor: pointer; 
+    margin-top: 0;             /* Change cursor to pointer on hover */  
+}  
+
+/* Style for the health image */  
+.health-image {  
+    margin-top: 20px;               /* Space above the image */                       /* Make the image take the full width of its container */  
+    max-width: 50%;                /* Ensure it’s responsive */                   /* Maintain the aspect ratio */  
+    border-radius: 0px;            /* Optional: slightly round the corners of the image */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow for better visual depth */  
+        margin-top: 1capy78;               /* Space above the image */  
+        width: calc(100% + 50px);       /* Expand the image width */  
+        max-width: none;                /* Remove max-width to allow it to expand */  
+        height: 250px;                  /* Fixed height for the image */  
+        object-fit: cover;              /* Ensure the image covers the area without distortion */  
+        position: relative;  
+        left: auto;                   /* Shift to the left to maintain center alignment */  
+        border-radius: 10px;            /* Optional: round the corners of the image */  
+        box-shadow: 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */  
+}
+.stats-section {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center; /* Centers the items horizontally */  
+    margin-top: 0px; /* Space above the section */  
+}  
+
+.stat {  
+    text-align: center; /* Centers the text inside each stat */  
+    margin:  0px; /* Space between stats */  
+}  
+
+.number {  
+    font-size: 3.5em;
+    color: blueviolet; /* Bigger font for the numbers */  
+}  
+
+.separator {  
+    font-size: 3em;
+    height: 2px; /* Adjust as needed for style */  
+}
+h5{
+    font-style: ;
+}
+h6{
+    text-align: center;
+}
+article{
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
