@@ -9,9 +9,11 @@
 <body>  
     <header> 
         <header>  
-            <div class="health-title">HealthMatrix</div>  
+            <div class="health-title">::HealthMatrix</div>  
             <div class="nav">  
-                <button onclick="showAbout()">About</button>  
+                <a href="about.html">
+                <button onclick="showAbout()">About</button> 
+            </a> 
                 <button onclick="showHowItWorks()">How It Works</button>  
                 <button onclick="showFeatures()">Features</button>  
             </div>  
@@ -41,14 +43,15 @@
         </main> 
             <p>
             <div class="container">  
-                <h6>Hospitals Partnered with HealthMatrix</h6> </p> 
-               <article>At HealthMatrix, we believe in delivering comprehensive healthcare solutions through strong collaborations with leading hospitals across the region.</article>
-                
-                <ul class="hospital-list">  
-                    <!-- Dynamic hospital entries will go here -->  
-                <div class="contact-info">   
-                    <p>For more information, please contact us at <a href="mailto:contact@healthmatrix.com">abksystems@healthmatrix.com</a> or visit our <a href="contact.html">contact page</a>.</p>  
-                </div>  
+                <h6>Hospitals Partnered with HealthMatrix</h6>
+                <p><ul class="hospital-list"></ul></p> 
+                <!-- Dynamic hospital entries will go here --> 
+               <footer>
+                <article>
+               <div class="contact-info"> For more information, please contact us at: <button><a href="mailto:contact@healthmatrix.com">abksystems@healthmatrix.com</a> </button>or visit<button><a href="contact.html">conatact page </a></button>
+                </div>
+            </article> 
+        </footer> 
     <script src="script.js"></script>  
 </body>  
 </html>

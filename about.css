@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbf0fb;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #8970dd;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul, ol {
+    text-align: left;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+    color: #333;
+}
+
+strong {
+    color: #0044cc;
+}
+
+section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9e1f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #f9e1f7;
+    padding: 15px 0;
+    margin-top: 40px;
+    color: rgb(11, 11, 11);
+}
+
+a {
+    color: #8970dd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0044cc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #8970dd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #82a7f1;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.number {
+    font-size: 2.5em;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.separator {
+    font-size: 3em;
+    height: 2px;
+    background-color: #8970dd;
+    margin: 20px 0;
+}
+
+article {
+    align-self: center;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(5, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: #f9e1f7;
+    border-radius: 10px;
+}
+
+.health-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0044cc;
+}
