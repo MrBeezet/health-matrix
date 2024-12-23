@@ -3,9 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
+    <title>Contact Us - Health-Matrix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9fb;
+            color: #333;
+        }
+        header {
+            background-color: #fecafe;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #4b7bec;
+        }
+        .contact-info, .contact-form {
+            margin-bottom: 40px;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 10px 0;
+        }
+        .contact-info li span {
+            font-weight: bold;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #f069e0;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #ba24e8;
+        }
+        .map-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(139, 11, 11, 0.1);
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Contact Us</h1>
+        <p>We’re here to help! Reach out to us for any inquiries or assistance.</p>
+    </header>
+    <div class="container">
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><span>Email:</span> support@healthmatrix.com</li>
+                <li><span>Phone:</span> +1 (555) 123-4567</li>
+                <li><span>Address:</span> 123 HealthTech Ave, Innovation City, Techland</li>
+                <li><span>Office Hours:</span> Mon-Fri, 9:00 AM - 5:00 PM</li>
+            </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="map-container">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509869!2d144.9537353153152!3d-37.81720974202185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f09c9a924e0!2s123%20HealthTech%20Ave%2C%20Innovation%20City%2C%20Techland!5e0!3m2!1sen!2s!4v1699999999999!5m2!1sen!2s" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
